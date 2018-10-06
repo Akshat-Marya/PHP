@@ -1,0 +1,17 @@
+
+/* wrapper and wrappers */
+
+#wrapper{
+  margin-top:20px;
+
+}
+#wrapper .wrapper_1{
+  float:left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#wrapper .wrapper_1 img{
+  width:90px;
+}

@@ -1,0 +1,9 @@
+section{
+  margin-top: 1.5%;
+  position: inherit;
+}
+section button{
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.1em solid #263440;
+}

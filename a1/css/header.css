@@ -1,0 +1,47 @@
+/* header */
+
+header{
+  background: gray;
+  color:black;
+  padding-top: 30px;
+  min-height: 70px;
+}
+
+header a{
+  color:gold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #logo{
+  float: left;
+}
+
+header img{
+  width: 90px;
+  padding-bottom: 20px;
+}
+
+
+header nav{
+  float: right;
+  margin-top: 20px;
+}
+
+header .highlight, header .current_page a{
+  color: red;
+  font-weight: bold;
+}
+
+header a:hover{
+  color:yellow;
+  font-weight: bolder;
+
+}

@@ -1,0 +1,294 @@
+/*Referred w3 schools for the reference
+  https://www.w3schools.com/html/html_css.asp */
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #004E89;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+ 
+ .box {
+ width: 50%;
+ margin: 0 auto;
+ 
+ padding: 20px;
+ border: 2px solid #fff;
+ background-clip: padding-box;
+ text-align: center;
+}
+
+.button {
+ font-size: 1em;
+ padding: 10px;
+ color: #005DA6;
+ border: 2px solid #005DA6;
+ border-radius: 20px;
+ text-decoration: none;
+
+
+}
+.button:hover {
+ background: #CCCCCC;
+ opacity: 2;
+}
+
+.overlay {
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background: rgba(0, 0, 0, 0.7);
+ transition: opacity 500ms;
+ visibility: hidden;
+ opacity: 0;
+}
+.overlay:target {
+ visibility: visible;
+ opacity: 1;
+}
+
+.popup {
+ margin: 70px auto;
+ padding: 20px;
+ background: #fff;
+ border-radius: 5px;
+ width: 30%;
+ position: relative;
+ transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+ margin-top: 0;
+ color: #333;
+ font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+ position: absolute;
+ top: 20px;
+ right: 30px;
+ transition: all 200ms;
+ font-size: 30px;
+ font-weight: bold;
+ text-decoration: none;
+ color: #333;
+}
+.popup .close:hover {
+ color: #06D85F;
+}
+.popup .content {
+ max-height: 30%;
+ overflow: auto;
+}
+ 
+ 
+.checked {
+    color: orange;
+}
+
+.main{
+	margin-top: 8%;
+	
+}
+
+.question_main {
+	margin-top: -2%;
+	display: inline-block;
+	width: 70%;
+	float: left;
+	
+	padding-bottom: 5em;
+	 
+    
+}
+
+.Details {
+	margin-top: -2%;
+	margin-left: -2%;
+	
+	display: inline-block;
+	width: 30%;
+	float: right;
+	text-align: center;
+	position:fixed;
+	border: 2px solid #f1f1f1;
+	
+    
+}
+.Details h4 {
+	
+	margin-top: 2%;
+}
+.Details p {
+	margin-top:-4%;
+	padding: 1em;
+}
+.Details .sub-heading3 {
+	margin-bottom:4%;
+}
+.sub_heading h3 {
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 5%;
+	margin-top: -1%;
+	/*position: fixed;*/
+	
+	
+}
+
+.Details .sub-heading1 .list-inline{padding-left:0;margin-left:-5px;list-style:none}.list-inline>li{display:inline-block;padding-right:5px;padding-left:5px}dl{margin-top:0;margin-bottom:20px}
+.main .question_main .question h6{
+	margin-top: 2%;
+	display:block;
+	width:100%;
+	margin-left: 2%;
+	color: #343A40;
+	
+}
+.main .question_main .question a{
+	
+	display:block;
+	width:100%;
+	margin-left: 5%;
+	color: #005DA6;
+	text-decoration:none;
+	
+}
+.question-box a{
+	
+	display:block;
+	width:100%;
+	color: #005DA6;
+	padding-left:1%;
+	
+	
+	
+}
+.message  {
+	
+	color:#005DA6;
+}
+.main .question_main .answer h6{
+	display:block;
+	width:100%;
+	margin-left: 2%;
+	color: #343A40;
+	
+}
+.main .question_main .answer a{
+	
+	display:block;
+	width:100%;
+	margin-left: 2%;
+	color: #343A40;
+	
+}
+.main .question_main .question-box {
+	
+	border: 2px solid #f1f1f1;
+	margin-left:2%;
+	margin-right:5%;
+	margin-top:3%;
+	color: red;
+	
+	
+}
+
+
+@media screen and (min-width: 1361px){
+.question_main {
+	max-width: 70%;	
+}
+.Details {
+	max-width: 30%;	
+}
+}
+@media screen and (max-width: 1361px) and (min-width: 900px){
+.main{
+	margin-top: 4%;
+}
+.question_main {
+	max-width: 70%;	
+	margin-top: 5%;
+}
+.Details {
+	max-width: 30%;	
+	margin-top: 5%;
+}}
+@media screen and (max-width: 900px) and (min-width: 700px)
+{
+.main{
+	margin-top: 2%;
+}
+.main .question_main .question-box {
+	margin-top:6%;
+}
+.question_main {
+	max-width: 70%;	
+	margin-top: 10%;
+}
+.Details {
+	max-width: 30%;	
+	margin-top: 10%;
+}}
+
+@media screen and (max-width: 700px)
+{
+	.main{
+		
+       float: none;
+
+		width:100%;
+	}
+	.main .question_main .question-box {
+	margin-top:6%;
+}
+	.Details {
+	width: 100%;	
+	margin-top: 10%;
+}
+.question_main {
+	width: 100%;	
+	margin-top: 10%;
+}
+}
+@media screen and (max-width: 600px)
+{
+	.question_main {
+	width: 100%;	
+	margin-top: 10%;
+}
+}

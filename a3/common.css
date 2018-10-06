@@ -1,0 +1,28 @@
+/*developed Saichand Singamaneni*/
+body{
+	background-color:#FFFFFF;
+}
+.header {
+	display:block;
+	width:85%;
+
+}
+.header .navbar-nav{
+	display: inline-block;
+	float: left;
+}
+.header .navbar-text {
+	display: inline-block;
+	float: left;
+}
+#signup	{
+	color:white;
+	font-size: 1.0em;
+	border: 0.2em solid white;
+	border-radius: 0.5em;
+}
+.navbar {
+	background-image:url("blue1.jpg");
+
+}
+

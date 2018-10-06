@@ -1,0 +1,11 @@
+
+
+/*footer*/
+footer{
+  padding:20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: gold;
+  text-align: center;
+  flex-shrink: 0;
+}

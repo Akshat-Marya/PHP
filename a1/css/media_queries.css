@@ -1,0 +1,17 @@
+
+/*media queries*/
+@media (max-width:768px) {
+  header #logo,  header nav,  header nav li,  #wrapper .wrapper_1{
+    float: left;
+    text-align: center;
+    width: 100%;
+    }
+}
+
+@media (max-width:320px) {
+  header #logo,  header nav,  header nav li,  #wrapper .wrapper_1{
+    float: none;
+    text-align: center;
+    width: 100%;
+    }
+}
